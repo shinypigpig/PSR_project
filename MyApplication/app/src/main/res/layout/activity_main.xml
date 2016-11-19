@@ -15,25 +15,36 @@
         android:weight="3">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:onClick="handClick1"
             android:src="@drawable/Hand" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:contextClickable="true"
+            android:onClick="scissorsClick1"
             android:src="@drawable/Scissors" />
 
         <ImageView
+            android:id="@+id/rock1"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:contextClickable="true"
+            android:onClick="rockClick1"
             android:src="@drawable/Rock" />
 
-
     </LinearLayout>
+
+
+
 
     <LinearLayout
         android:id="@+id/midLayout"
@@ -66,6 +77,9 @@
 
     </LinearLayout>
 
+
+
+
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -78,22 +92,30 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:contextClickable="true"
+            android:onClick="handClick2"
             android:src="@drawable/Hand" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:contextClickable="true"
+            android:onClick="scissorsClick2"
             android:src="@drawable/Scissors" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_weight="1"
+            android:contextClickable="true"
+            android:onClick="rockClick2"
             android:src="@drawable/Rock" />
 
 
     </LinearLayout>
+
+
 
 
 </RelativeLayout>
